@@ -32,7 +32,7 @@
             "name": "Row",
             "type": "",
             "description": "Optional row factor.",
-            "ontologyMapping": "row",
+            "ontologyMapping": "variable",
             "crosstabMapping": "row",
             "cardinality": "0..n",
             "factors": []
@@ -42,7 +42,7 @@
             "name": "Column",
             "type": "",
             "description": "Optional column factor.",
-            "ontologyMapping": "column",
+            "ontologyMapping": "observation",
             "crosstabMapping": "column",
             "cardinality": "0..n",
             "factors": []
@@ -67,7 +67,7 @@
                 "name": "X Axis",
                 "type": "numeric",
                 "description": "Explanatory value for the X axis.",
-                "ontologyMapping": "explanatory",
+                "ontologyMapping": "measurement",
                 "crosstabMapping": "x",
                 "cardinality": "1",
                 "factors": []
